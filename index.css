@@ -1,7 +1,7 @@
 /*CSS Reset*/
 
 body {
-	background-image: url(https://cdn.pixabay.com/photo/2020/09/16/04/52/background-5575333_960_720.jpg);
+	background-image: url(./bg.jpg);
 		background-position: top;
 		 background-attachment: fixed;
 font-family: 'Oswald', sans-serif !important;
