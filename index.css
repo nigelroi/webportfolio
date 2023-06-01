@@ -41,7 +41,7 @@ footer {
 /* Effects for specific sections */
 
 
-#about-border, #tools-border, #landing-border, #projects-border, #contact-border {
+#about-border, #tools-border, #landing-border, #projects-border, #contact {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2),
                 0 0 20px rgba(12, 176, 230, 0.7),
                 0 0 40px rgba(12, 176, 230, 0.5),
@@ -49,7 +49,7 @@ footer {
 
 
 @media screen and (max-width: 480px) {
-    #about-border, #tools-border, #landing-border, #projects-border, #contact-border {
+    #about-border, #tools-border, #landing-border, #projects-border, #contact {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2),
                 0 0 5px rgba(12, 176, 230, 0.7),
                 0 0 10px rgba(12, 176, 230, 0.5),
