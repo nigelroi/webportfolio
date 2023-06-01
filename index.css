@@ -1,32 +1,69 @@
-/*CSS Reset*/
+/* CSS Reset */
+
 
 body {
-	background-image: url(./bg.jpg);
-		background-position: top;
-		 background-attachment: fixed;
-font-family: 'Oswald', sans-serif !important;
-font-size: 2.5vh
+    background-color: rgb(30, 30, 30) !important;
+    background-position: top;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif !important;
+ 
+
 }
+
 .font-weight-bold {
-	font-size: 2.5vh;
+    font-size: 2.5vh;
 }
+
 @media screen and (max-width: 600px) {
-  div.font-weight-bold {
-    font-size: .5vh;
-  }
+    div.font-weight-bold {
+        font-size: 0.5vh;
+    }
 }
 
 #navimg {
-	background-image: url(https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41477-019-0374-3/MediaObjects/41477_2019_374_Figa_HTML.jpg);
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: cover;
-	
+    background-image: url(https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41477-019-0374-3/MediaObjects/41477_2019_374_Figa_HTML.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#navopq {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  
+    font-size: 14px; /* Adjust the font size for the footer */
+    padding: 10px; /* Add padding for spacing */
+    background-color: #f2f2f2; /* Add a background color for the footer */
+    text-align: center;
+}
+/* Effects for specific sections */
+
+
+#about-border, #tools-border, #landing-border, #projects-border, #contact-border {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2),
+                0 0 20px rgba(12, 176, 230, 0.7),
+                0 0 40px rgba(12, 176, 230, 0.5),
+                0 0 80px rgba(12, 176, 230, 0.3)}
+
+
+@media screen and (max-width: 480px) {
+    #about-border, #tools-border, #landing-border, #projects-border, #contact-border {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2),
+                0 0 5px rgba(12, 176, 230, 0.7),
+                0 0 10px rgba(12, 176, 230, 0.5),
+                0 0 20px rgba(12, 176, 230, 0.3)}
+    }
+}
 
 }
-#navopq {
-	background: rgba(0, 0, 0, 0.5)
-}
-footer {
-	font-size: 3vw;
+
+@media screen and (max-width: 768px) {
+    #about-border, #tools-border, #landing-border, #projects-border, #contact-border {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2),
+                0 0 10px rgba(12, 176, 230, 0.7),
+                0 0 20px rgba(12, 176, 230, 0.5),
+                0 0 30px rgba(12, 176, 230, 0.3)}
+    }
 }
